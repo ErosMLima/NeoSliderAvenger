@@ -1,0 +1,49 @@
+.img1 {
+    background-image: url(iron\ man.jpg);
+    box-shadow: 30px 30px 30px 30px rgba(216, 183, 37, 0.6);
+
+}
+
+.img2 {
+    background-image: url(capitao.jpg);
+    box-shadow: 30px 30px 30px 30px rgba(0, 0, 20, 20.6);
+
+}
+
+.img3 {
+    background-image: url(dr.jpg);
+    box-shadow: 30px 30px 30px 30px rgba(241, 102, 92, 0.6);
+
+}
+
+.img4 {
+    background-image: url(thor.jpg);
+    box-shadow: 30px 30px 30px 30px rgba(129, 111, 240, 0.6);
+
+}
+
+.img5 {
+    background-image: url(peter.jpg);
+    box-shadow: 30px 30px 30px 30px rgba(0, 20, 120, 0.6);
+
+}
+
+.img6 {
+    background-image: url(w.jpg);
+    box-shadow: 30px 30px 30px 30px rgba(110, 220, 120, 0.6);
+
+}
+
+.img p {
+    position: absolute;
+    left: 0; bottom: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: rotate(-90deg);
+    transition: all 0.3s;
+    transform-origin: 0% 0%;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    box-shadow: 30px 30px 30px 30px rgba(0, 0, 0, 0.6);
+}

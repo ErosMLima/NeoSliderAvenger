@@ -1,0 +1,32 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-image: url(wall3.jpg) ;
+    background-size: 50%;
+    
+}
+
+.img-slide {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    backdrop-filter: blur( 4px );
+    border-radius: 0px;
+    border:  0px solid rgba( 5, 55, 255, 0.4 );
+}
+
+.img {
+    flex: 1;
+    height: 110%;
+    transform: skew(5deg);
+    cursor: pointer;
+    margin: 0 2px;
+    transition: all 0.3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
